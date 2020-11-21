@@ -10,7 +10,7 @@ get_header();
 
 <!--  -->
 <section class="section-say-hello add-padding-aux">
-    <div class="container">
+    <div class="container add-padding-aux">
         <div class="box-aux-hi">
             <div class="area-img add-padding-aux">
                 <div> <img src="<?php bloginfo('template_url'); ?>/assets/image/menu.jpg" alt="nosotros" /></div>

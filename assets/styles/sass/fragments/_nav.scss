@@ -2,12 +2,14 @@ nav#navbar {
   padding: 1em;
   box-sizing: border-box;
   width: 100%;
-  position: relative;
+  position: absolute;
   top: 0;
   z-index: 6;
   overflow: hidden;
-  background: #fff;
+  background: transparent;
+  transition: all 350ms ease-in-out;
   &.scroll {
+    background: #fff;
     box-shadow: rgba(149, 157, 165, 0.15) 0px 8px 24px;
     position: fixed;
     transition: all 350ms ease-in-out;
@@ -17,6 +19,18 @@ nav#navbar {
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    .hidden {
+      display: none;
+    }
+    .view-now {
+      display: block;
+    }
+    a {
+      img {
+        width: 100px;
+        height: 100%;
+      }
+    }
   }
 }
 
@@ -29,18 +43,26 @@ nav#navbar {
   overflow: hidden;
   align-items: flex-start;
   justify-content: center;
-  padding-top: 13vh;
   position: fixed;
   width: 100%;
   z-index: 4;
-  transform: translateY(-100%);
+  transform: translateY(0%);
   transition: all 350ms ease-in-out;
+  display: flex;
+  justify-content: space-between;
   &.show {
     transition: all 350ms ease-in-out;
     transform: translateY(0%);
   }
 }
+
 .menu-items {
+  margin: 6rem 0 0 9rem;
+
+  @include responsive(tablet) {
+    margin: 6rem 1rem;
+    width: 60%;
+  }
   ul {
     padding: 0;
     margin: 0;
@@ -58,8 +80,18 @@ nav#navbar {
         color: #fff;
         text-transform: uppercase;
         font-size: 1.5rem;
+        line-height: normal;
       }
     }
+  }
+}
+
+.aux-img-menu {
+  height: 100%;
+  width: 70%;
+  background-size: cover;
+  @include responsive(tablet) {
+    width: 30%;
   }
 }
 

@@ -35,9 +35,16 @@
     <div class="container">
       <div class="aux-menu">
         <div>
-        <?php echo '<a href="' . get_site_url() . '/">' ?>
-         
+          <?php echo '<a href="' . get_site_url() . '/">' ?>
+
+          <div id="logo-black" class="hidden">
             <img src="<?php bloginfo('template_url'); ?>/assets/image/logo/icon-black.svg" alt="logo feregsp" />
+          </div>
+
+
+          <div id="logo-white" class="view-now">
+            <img src="<?php bloginfo('template_url'); ?>/assets/image/logo/logo-white.svg" alt="logo feregsp" />
+          </div>
           </a>
         </div>
         <div>
@@ -57,13 +64,17 @@
 
   <div id="container-menu">
     <div class="menu-items">
-      <?php
-      $args = array(
-        'theme_location' => 'main-menu',
-        'container' => 'nav',
-        'container_class' => 'main-menu',
-      );
-      wp_nav_menu($args);
-      ?>
+      <div class="container">
+        <?php
+        $args = array(
+          'theme_location' => 'main-menu',
+          'container' => 'nav',
+          'container_class' => 'main-menu',
+        );
+        wp_nav_menu($args);
+        ?>
+      </div>
+    </div>
+    <div class="aux-img-menu" style="background-image:url('<?php bloginfo('template_url'); ?>/assets/image/menu-img.png')">
     </div>
   </div>

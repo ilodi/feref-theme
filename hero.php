@@ -12,9 +12,12 @@ if (has_post_thumbnail()) {
 ?>
 
 <section class="main-hero" id="post-<?php the_ID(); ?>" style="background-image:url('<?php echo $thumbnail_url ?>')" <?php post_class('container-fluid'); ?>>
-    <div class="row">
-        <div class="col-md-12 horiz-cell">
+   <div class="help-shadow">
+
+   <div class="container">
+        <div class="">
 
         </div>
     </div>
+   </div>
 </section>
