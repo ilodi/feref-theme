@@ -46,7 +46,7 @@ nav#navbar {
   position: fixed;
   width: 100%;
   z-index: 4;
-  transform: translateY(0%);
+  transform: translateY(-100%);
   transition: all 350ms ease-in-out;
   display: flex;
   justify-content: space-between;
@@ -61,7 +61,7 @@ nav#navbar {
 
   @include responsive(tablet) {
     margin: 6rem 1rem;
-    width: 60%;
+    width: 100%;
   }
   ul {
     padding: 0;
@@ -91,7 +91,7 @@ nav#navbar {
   width: 70%;
   background-size: cover;
   @include responsive(tablet) {
-    width: 30%;
+    display: none;
   }
 }
 

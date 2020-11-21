@@ -8,8 +8,8 @@ body {
 }
 
 .add-padding-aux {
-  padding-top: 4rem;
-  padding-bottom: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 4rem;
 }
 
 .add-padding-aux-slim {
@@ -78,4 +78,40 @@ body {
 
 .text-upp {
   text-transform: uppercase !important;
+}
+
+//
+
+.hero-title-helper {
+  color: #fff;
+  h1,
+  span {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  span {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+  h1 {
+    margin: 0.34rem 0 1.09rem;
+    line-height: normal;
+    font-weight: 600;
+
+    font-size: 2rem;
+    @include responsive(tablet) {
+      font-size: 1.3em;
+    }
+  }
+  .btn {
+    border: 2px solid #fff;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    box-sizing: border-box;
+    padding: 0.3rem 2rem;
+    position: absolute;
+    border-radius: 4px;
+    font-weight: 500;
+  }
 }

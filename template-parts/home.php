@@ -6,7 +6,32 @@
 get_header();
 ?>
 
-<?php locate_template( './hero.php', true, true );?>
+<?php
+if (has_post_thumbnail()) {
+    $thumbnail_data = wp_get_attachment_image_src(get_post_thumbnail_id(get_the_ID()), 'my-fun-size');
+    $thumbnail_url = $thumbnail_data[0];
+}
+?>
+
+<section class="main-hero" id="post-<?php the_ID(); ?>" style="background-image:url('<?php echo $thumbnail_url ?>')" <?php post_class('container-fluid'); ?>>
+    <div class="help-shadow">
+
+        <div class="container">
+            <div class="hero-title-helper ">
+                <span>
+                    Para nosotros
+                </span>
+                <h1>
+                    Su seguridad es </br>
+                    nuestro compromiso.
+                </h1>
+                <a class="btn">
+                    CONTACTO
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!--  -->
 <section class="section-say-hello add-padding-aux">
