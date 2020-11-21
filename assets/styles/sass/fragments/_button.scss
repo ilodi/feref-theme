@@ -1,0 +1,27 @@
+a {
+  text-decoration: none;
+  .type-btn-line {
+    transition: all 350ms ease-in-out;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 0.8em 1.5em;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    margin: auto;
+    span {
+      color: #fff;
+    }
+    &:hover {
+      transition: all 350ms ease-in-out;
+      background: $Yellow;
+      border: 2px solid transparent;
+      span {
+        color: $Black;
+      }
+    }
+  }
+}

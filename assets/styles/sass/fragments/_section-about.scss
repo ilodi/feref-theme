@@ -1,0 +1,37 @@
+.box-info-about {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  @include responsive(tablet) {
+    flex-direction: column;
+  }
+  & > div {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    @include responsive(tablet) {
+      width: 100%;
+    }
+    h5,
+    p {
+      padding: 0;
+      margin: 0;
+      color: $Black;
+    }
+    h5 {
+      font-weight: 500;
+      font-size: 1.5em;
+      margin-bottom: 0.34em;
+    }
+    p {
+      font-weight: 300;
+      font-size: 1.5em;
+      line-height: 2.125rem;
+    }
+    &.img-map{
+        margin-top: 2rem;
+    }
+  }
+}

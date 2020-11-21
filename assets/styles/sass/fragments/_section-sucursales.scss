@@ -1,0 +1,48 @@
+.section-sucursales {
+  background: $Black;
+  color: #fff;
+  border-top: 4rem solid $WhiteCream;
+}
+
+.container-info-extra {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  .item-info-extra {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    width: 31%;
+    height: 200px;
+    overflow: hidden;
+    padding: 1em;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    @include responsive(tablet) {
+      width: 100%;
+    }
+    img {
+      height: 3.438rem;
+    }
+    h4,
+    p {
+      padding: 0;
+      margin: 0;
+    }
+    h4 {
+      text-transform: uppercase;
+      font-size: 1.063rem;
+      margin: 1rem 0 0.5rem 0;
+    }
+    p {
+      font-size: 1.063rem;
+      line-height: 1.5rem;
+      font-weight: lighter;
+      color: rgba(255, 255, 255, 0.55);
+    }
+  }
+}

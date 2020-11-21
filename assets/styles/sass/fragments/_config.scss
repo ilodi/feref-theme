@@ -1,0 +1,81 @@
+*,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+:root {
+  font-size: 16px;
+}
+
+.add-padding-aux {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+
+.add-padding-aux-slim {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.element-title-helper {
+  color: #fff;
+  h3,
+  span {
+    padding: 0;
+    margin: 0;
+  }
+  span {
+    font-weight: 300;
+    font-size: 1.5rem;
+    &::before {
+      content: "";
+      width: 2em;
+      height: 3px;
+      background: $Yellow;
+      position: absolute;
+      transform: translate3d(-110%, 0.5em, 0);
+      @include responsive(tablet) {
+        display: none;
+      }
+    }
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 2.125rem;
+    margin-top: 0.8rem;
+    @include responsive(tablet) {
+      font-size: 2rem;
+    }
+  }
+}
+.title-helper {
+  &::before {
+    content: "";
+    width: 2em;
+    height: 3px;
+    background: $Yellow;
+    position: absolute;
+    transform: translate3d(-110%, 1em, 0);
+    @include responsive(tablet) {
+      display: none;
+    }
+  }
+  h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: $Black;
+    @include responsive(tablet) {
+      font-size: 1.3em;
+      text-align: center;
+    }
+  }
+}
+
+.change-color-bg-wh {
+  color: $Black;
+}
+
+.text-upp {
+  text-transform: uppercase !important;
+}

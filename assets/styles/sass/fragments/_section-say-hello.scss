@@ -1,0 +1,37 @@
+.section-say-hello {
+  .box-aux-hi {
+    display: flex;
+    justify-content: space-between;
+    @include responsive(tablet) {
+      flex-direction: column-reverse;
+    }
+    & > div {
+      width: 50%;
+      @include responsive(tablet) {
+        width: 100%;
+      }
+    }
+  }
+  .area-img {
+    img {
+      width: 200px;
+      overflow: hidden;
+    }
+  }
+  .box-label-hi {
+    p {
+      padding: 0;
+      margin: 0;
+      color: $Black;
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 1.5em;
+      line-height: 2.125rem;
+      &.exp-p-hi {
+        font-weight: 300;
+      }
+    }
+  }
+}
