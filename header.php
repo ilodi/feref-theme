@@ -35,7 +35,10 @@
     <div class="container">
       <div class="aux-menu">
         <div>
-          <img src="<?php bloginfo('template_url'); ?>/assets/image/logo/icon-black.svg" alt="logo feregsp" />
+        <?php echo '<a href="' . get_site_url() . '/">' ?>
+         
+            <img src="<?php bloginfo('template_url'); ?>/assets/image/logo/icon-black.svg" alt="logo feregsp" />
+          </a>
         </div>
         <div>
           <div id="menu-burger" onclick="activeMenu()">

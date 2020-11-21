@@ -5,6 +5,9 @@
  */
 get_header();
 ?>
+
+<?php locate_template( './hero.php', true, true );?>
+
 <!--  -->
 <section class="section-say-hello add-padding-aux">
     <div class="container">
@@ -78,9 +81,104 @@ get_header();
     </div>
 </section>
 <!--  -->
+<section class="section-services">
+    <div class="grid-container">
+
+        <div class="item-services">
+            <div>
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/aux/AccesoriosdeSeguridad.jpg" alt="Accesoriosde Seguridad" />
+            </div>
+            <div class="text-item-service">
+                <h6>Accesorios
+                    de Seguridad</h6>
+                <p>
+                    Dispositivos que complementan
+                    la vigilancia, prevención y cuidado
+                    de su patrimonio.
+                </p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="item-services">
+            <div>
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/aux/CustodiaaUnidades.jpg" alt="Custodia a Unidades" />
+            </div>
+            <div class="text-item-service">
+                <h6>Custodia
+                    a Unidades</h6>
+                <p>
+                    Custodia, vigilancia, cuidado y
+                    protección de bienes, muebles
+                    o valores que traslade el cliente.
+                </p>
+            </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="item-services">
+            <div>
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/aux/Escolta.jpg" alt="Escolta" />
+            </div>
+            <div class="text-item-service">
+                <h6>Escolta</h6>
+                <p>
+                    Protección, custodia, salvaguarda,
+                    defensa de la vida y de la integridad
+                    corporal del cliente.
+                </p>
+            </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="item-services">
+            <div>
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/aux/GuardiaIntramuro.jpg" alt="Guardia Intramuro" />
+            </div>
+            <div class="text-item-service">
+                <h6>Guardia
+                    Intramuro</h6>
+                <p>
+                    Capital humano altamente
+                    seleccionado y capacitado.
+                </p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="item-services">
+            <div>
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/aux/Monitoreo.jpg" alt="Monitoreo" />
+            </div>
+            <div class="text-item-service">
+                <h6>Monitoreo</h6>
+                <p>
+                    Trabajamos las 24 hrs,
+                    los 365 días del año.
+                </p>
+            </div>
+        </div>
+        <!--  -->
+        <!--  -->
+        <div class="item-services">
+            <div>
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/aux/RastreoSatelital.jpg" alt="Rastreo 
+Satelital" />
+            </div>
+            <div class="text-item-service">
+                <h6>Rastreo
+                    Satelital</h6>
+                <p>
+                    Rastreo de vehículos particulares,
+                    o rastreo de flotillas vehiculares.
+                </p>
+            </div>
+        </div>
+        <!--  -->
+    </div>
+</section>
+<!--  -->
 <section class="section-about add-padding-aux">
     <div class="container">
-        <div class="element-title-helper change-color-bg-wh">
+        <div class="element-title-helper change-color-bg-wh add-padding-aux-slim ">
             <span>
                 FEREG
             </span>
@@ -117,9 +215,9 @@ get_header();
     </div>
 </section>
 
-<section class="section-clientes add-padding-aux">
+<section class="section-clientes add-padding-aux ">
     <div class="container">
-        <div class="label">
+        <div class="label add-padding-aux-slim ">
             <p>Esto son solo algunos de los muchos clientes que han confiado en nosotros.</p>
         </div>
         <!--  -->

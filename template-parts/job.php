@@ -6,6 +6,7 @@
 get_header();
 ?>
 
+<?php locate_template( './hero.php', true, true );?>
 
 
 <?php

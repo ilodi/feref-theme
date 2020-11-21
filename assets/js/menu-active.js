@@ -11,7 +11,7 @@ function activeMenu() {
   
   
       var classesMenu = menuMobile.className.split(" ");
-      var x = classclassesMenues.indexOf("show");
+      var x = classesMenu.indexOf("show");
   
     }
   

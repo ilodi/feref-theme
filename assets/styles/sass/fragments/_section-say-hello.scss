@@ -7,15 +7,47 @@
     }
     & > div {
       width: 50%;
+      &:first-child {
+        width: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 1rem;
+        box-sizing: border-box;
+        background: #f8f8f861;
+      }
       @include responsive(tablet) {
         width: 100%;
+        &:first-child {
+          width: 100%;
+          margin: 3rem 0;
+        }
       }
     }
   }
   .area-img {
-    img {
-      width: 200px;
+    div {
+      width: 180px;
       overflow: hidden;
+      position: relative;
+      height: 300px;
+      // img {
+      // }
+      &:first-child {
+        transform: translateY(-21%);
+      }
+      &:last-child {
+        transform: translateY(21%);
+      }
+      @include responsive(tablet) {
+        width: 140px;
+        &:first-child {
+          transform: translateY(-10%);
+        }
+        &:last-child {
+          transform: translateY(10%);
+        }
+      }
     }
   }
   .box-label-hi {
