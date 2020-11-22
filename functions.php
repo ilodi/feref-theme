@@ -26,6 +26,12 @@ function setup_start()
 }
 add_action('after_setup_theme', 'setup_start');
 
+add_action( 'wp_print_styles', 'wps_deregister_styles', 100 );
+function wps_deregister_styles() {
+    wp_deregister_style( 'contact-form-7' );
+}
+
+
 function currentYear()
 {
     return date('Y');

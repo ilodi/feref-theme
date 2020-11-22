@@ -58,7 +58,7 @@ nav#navbar {
 
 .menu-items {
   margin: 6rem 0 0 9rem;
-
+  width: 55%;
   @include responsive(tablet) {
     margin: 6rem 1rem;
     width: 100%;
@@ -88,7 +88,7 @@ nav#navbar {
 
 .aux-img-menu {
   height: 100%;
-  width: 70%;
+  width: 45%;
   background-size: cover;
   @include responsive(tablet) {
     display: none;

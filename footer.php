@@ -19,7 +19,7 @@
       </p>
     </div>
     <div class="container-bottom">
-      <a href="http://" target="_blank" rel="noopener noreferrer">
+      <a href="<?php echo (get_permalink(10)) ?>" target="_blank" rel="noopener noreferrer">
         <div class="type-btn-line">
 
           <span>Registrarte</span>

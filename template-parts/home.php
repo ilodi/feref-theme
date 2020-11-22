@@ -25,7 +25,7 @@ if (has_post_thumbnail()) {
                     Su seguridad es </br>
                     nuestro compromiso.
                 </h1>
-                <a class="btn">
+                <a class="btn" href="<?php echo (get_permalink(14)) ?>" target="_blank" rel="noopener noreferrer">
                     CONTACTO
                 </a>
             </div>
