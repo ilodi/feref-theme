@@ -51,12 +51,12 @@ if (has_post_thumbnail()) {
             </div>
             <!--  -->
             <div class="item-proceses">
-                <h2>Evaluación tocicológica</h2>
+                <h2>Evaluación Toxicológica</h2>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/story-view/2.png" alt="Evaluación tocicológica" />
             </div>
             <!--  -->
             <div class="item-proceses">
-                <h2>evaluación psicologica</h2>
+                <h2>evaluación psicológica</h2>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/story-view/3.png" alt="evaluación psicologica" />
             </div>
             <!--  -->

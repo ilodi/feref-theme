@@ -46,7 +46,7 @@ if (has_post_thumbnail()) {
                 DE ESTE EQUIPO!
             </h3>
             <p>
-                Nos encargados de fomentar el amor al trabajo. 
+                Nos nos encargados. de fomentar el amor al trabajo. </br>
                 Puedes mandarnos tu <strong>CV</strong> en formato <strong>PDF</strong>.
             </p>
         </div>
