@@ -7,7 +7,19 @@
 ?>
 
 <?php wp_footer(); ?>
-
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5fbb1282920fc91564c9932e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
 <section class="banner ">
 
   <img src="<?php bloginfo('template_url'); ?>/assets/image/banner/pre_footer.jpg" alt="banner feregsp" />

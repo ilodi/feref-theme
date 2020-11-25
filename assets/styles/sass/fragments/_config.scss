@@ -108,16 +108,25 @@ body {
       font-size: 1.3em;
     }
   }
-  .btn {
-    border: 2px solid #fff;
-    font-size: 1.5rem;
-    text-transform: capitalize;
-    box-sizing: border-box;
-    padding: 0.3rem 2rem;
-    position: absolute;
-    border-radius: 4px;
-    font-weight: 500;
 
-    color: #fff;
+}
+
+.btn {
+  border: 2px solid #fff;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  box-sizing: border-box;
+  padding: 0.3rem 2rem;
+  position: absolute;
+  border-radius: 4px;
+  font-weight: 500;
+
+  color: #fff;
+  transition: all 350ms ease-in-out;
+  &:hover{
+    border: 2px solid transparent;
+    transition: all 350ms ease-in-out;
+    background: $Yellow;
+    color: $Black;
   }
 }

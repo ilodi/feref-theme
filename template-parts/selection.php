@@ -27,7 +27,7 @@ if (has_post_thumbnail()) {
                     Para nuestro personal.
 
                 </h1>
-                <a class="btn">
+                <a class="btn" href="<?php echo (get_permalink(14)) ?>" target="_blank" rel="noopener noreferrer">
                     CONTACTO
                 </a>
             </div>

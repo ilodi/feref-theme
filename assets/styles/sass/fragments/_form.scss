@@ -42,6 +42,10 @@
 .container-form {
   overflow: hidden;
   box-sizing: border-box;
+  width: 60%;
+  @include responsive(tablet) {
+    width: 100%;
+  }
   .wpcf7 {
     width: 100%;
   }
@@ -86,7 +90,6 @@
         }
       }
       .wpcf7-radio {
-     
         .first {
           margin-right: 1rem;
         }
