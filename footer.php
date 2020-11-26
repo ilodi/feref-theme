@@ -54,12 +54,12 @@ s0.parentNode.insertBefore(s1,s0);
   <div>
     <ul>
       <li>
-        <a href="facebook.com" target="_blank">
+        <a href="https://www.facebook.com/FEREGSPC/" target="_blank">
           <img src="<?php bloginfo('template_url'); ?>/assets/image/icon/facebook.svg" alt="facebook icon" />
         </a>
       </li>
       <li>
-        <a href="facebook.com" target="_blank">
+        <a href="https://www.instagram.com/feregspc/" target="_blank">
           <img src="<?php bloginfo('template_url'); ?>/assets/image/icon/instagram.svg" alt="instagram icon" />
         </a>
       </li>

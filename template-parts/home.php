@@ -265,7 +265,13 @@ Satelital" />
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/farmacias-sanisidro-c.svg" alt="nuestro clientes" />
             </div>
 
-
+            <div class="you-next">
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/logo/aux-next-you.svg" alt="Tenemos reservado un espacio para ti!" />
+                <div>
+                    <p>Tenemos reservado
+                        un espacio para ti!!</p>
+                </div>
+            </div>
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/ibarra.svg" alt="nuestro clientes" />
             </div>
@@ -303,14 +309,7 @@ Satelital" />
             </div>
 
 
-            <div class="you-next">
-                <img src="<?php bloginfo('template_url'); ?>/assets/image/logo/aux-next-you.svg" alt="Tenemos reservado 
-un espacio para ti!" />
-                <div>
-                    <p>Tenemos reservado
-                        un espacio para ti!!</p>
-                </div>
-            </div>
+
 
         </div>
         <!--  -->
