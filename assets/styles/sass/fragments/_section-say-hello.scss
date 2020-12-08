@@ -30,9 +30,19 @@
       width: 180px;
       overflow: hidden;
       position: relative;
-      height: 300px;
-      // img {
-      // }
+      height: 330px;
+    
+
+      img {
+        height: 100%;
+        position: absolute;
+      }
+      .help-img-home-A {
+        left: 0;
+      }
+      .help-img-home-B {
+        right: 0;
+      }
       &:first-child {
         transform: translateY(-21%);
       }

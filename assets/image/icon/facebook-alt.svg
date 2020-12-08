@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Icon_awesome-facebook-square" transform="matrix(1,0,0,1,0,-2.25)">
+        <path d="M28.125,2.25L3.375,2.25C1.524,2.25 -0,3.774 0,5.625L0,30.375C0,32.226 1.524,33.75 3.375,33.75L13.025,33.75L13.025,23.041L8.6,23.041L8.6,18L13.03,18L13.03,14.158C13.03,9.788 15.63,7.374 19.616,7.374C20.923,7.392 22.226,7.506 23.516,7.714L23.516,12L21.316,12C21.206,11.985 21.096,11.978 20.985,11.978C19.602,11.978 18.464,13.116 18.464,14.499C18.464,14.574 18.467,14.649 18.474,14.723L18.474,18L23.31,18L22.537,23.041L18.475,23.041L18.475,33.75L28.125,33.75C29.976,33.75 31.5,32.226 31.5,30.375L31.5,5.625C31.5,3.774 29.976,2.25 28.125,2.25Z" style="fill:rgb(245,208,102);fill-rule:nonzero;"/>
+    </g>
+</svg>

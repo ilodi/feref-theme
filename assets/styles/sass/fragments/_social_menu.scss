@@ -1,0 +1,57 @@
+.social-menu {
+  position: fixed;
+  top: 40%;
+  right: 4%;
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    li {
+      width: 27px;
+      height: 27px;
+      a {
+        width: 100%;
+        height: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+          transition: all 350ms ease-in-out;
+        }
+
+        &:hover {
+          img {
+            transform: scale(1.2);
+            width: 100%;
+            height: 100%;
+            transition: all 350ms ease-in-out;
+          }
+        }
+      }
+
+      &:first-child {
+        animation-name: showItem;
+        animation-duration: 350ms;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+      }
+      &:last-child {
+        margin-top: 2rem;
+        animation-name: showItem;
+        animation-delay: 150ms;
+        animation-duration: 350ms;
+        animation-timing-function: ease-in-out;
+        animation-fill-mode: forwards;
+      }
+    }
+  }
+}
+
+@keyframes showItem {
+  from {
+    transform: translateX(300%);
+  }
+
+  to {
+    transform: translateX(0%);
+  }
+}

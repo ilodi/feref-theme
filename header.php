@@ -78,3 +78,19 @@
     <div class="aux-img-menu" style="background-image:url('<?php bloginfo('template_url'); ?>/assets/image/menu-img.png')">
     </div>
   </div>
+
+  <div class="social-menu">
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/FEREGSPC/" target="_blank">
+          <img src="<?php bloginfo('template_url'); ?>/assets/image/icon/facebook-alt.svg" alt="facebook icon" />
+       
+        </a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/feregspc/" target="_blank">
+          <img src="<?php bloginfo('template_url'); ?>/assets/image/icon/instagram-alt.svg" alt="instagram icon" />
+        </a>
+      </li>
+    </ul>
+  </div>

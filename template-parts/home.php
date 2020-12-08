@@ -38,8 +38,8 @@ if (has_post_thumbnail()) {
     <div class="container add-padding-aux">
         <div class="box-aux-hi">
             <div class="area-img add-padding-aux">
-                <div> <img src="<?php bloginfo('template_url'); ?>/assets/image/menu.jpg" alt="nosotros" /></div>
-                <div> <img src="<?php bloginfo('template_url'); ?>/assets/image/menu.jpg" alt="nosotros" /></div>
+                <div> <img class="help-img-home-A" src="<?php bloginfo('template_url'); ?>/assets/image/aux/hom.jpg" alt="nosotros" /></div>
+                <div> <img class="help-img-home-B" src="<?php bloginfo('template_url'); ?>/assets/image/aux/hom.jpg" alt="nosotros" /></div>
             </div>
             <div class="box-label-hi">
                 <div class="element-title-helper change-color-bg-wh">
@@ -185,8 +185,7 @@ if (has_post_thumbnail()) {
         <!--  -->
         <div class="item-services">
             <div>
-                <img src="<?php bloginfo('template_url'); ?>/assets/image/aux/RastreoSatelital.jpg" alt="Rastreo 
-Satelital" />
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/aux/RastreoSatelital.jpg" alt="Rastreo Satelital" />
             </div>
             <div class="text-item-service">
                 <h6>Rastreo
@@ -256,7 +255,9 @@ Satelital" />
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/daruma.svg" alt="nuestro clientes" />
             </div>
-
+            <div>
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/vesta.svg" alt="nuestro clientes" />
+            </div>
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/estamp2020.svg" alt="nuestro clientes" />
             </div>
@@ -265,13 +266,7 @@ Satelital" />
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/farmacias-sanisidro-c.svg" alt="nuestro clientes" />
             </div>
 
-            <div class="you-next">
-                <img src="<?php bloginfo('template_url'); ?>/assets/image/logo/aux-next-you.svg" alt="Tenemos reservado un espacio para ti!" />
-                <div>
-                    <p>Tenemos reservado
-                        un espacio para ti!!</p>
-                </div>
-            </div>
+
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/ibarra.svg" alt="nuestro clientes" />
             </div>
@@ -279,7 +274,12 @@ Satelital" />
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/ICI.svg" alt="nuestro clientes" />
             </div>
-
+            <div class="you-next">
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/logo/aux-next-you.svg" alt="Tenemos reservado un espacio para ti!" />
+                <div>
+                    <p>Tenemos reservado un espacio <span>para ti!!</span></p>
+                </div>
+            </div>
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/nitrex.svg" alt="nuestro clientes" />
             </div>
@@ -303,13 +303,6 @@ Satelital" />
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/Thyssenkrupp.svg" alt="nuestro clientes" />
             </div>
-
-            <div>
-                <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/vesta.svg" alt="nuestro clientes" />
-            </div>
-
-
-
 
         </div>
         <!--  -->
