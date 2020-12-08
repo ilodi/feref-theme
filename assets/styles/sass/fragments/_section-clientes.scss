@@ -20,6 +20,7 @@
       justify-self: center;
       padding: 1em;
       box-sizing: border-box;
+      width: 300px;
       @include responsive(tablet) {
         margin: 2rem 0;
 
@@ -32,8 +33,8 @@
     img {
       object-fit: cover;
       filter: grayscale(1);
+      margin: auto;
       transition: all 350ms ease-in-out;
-      width: 100%;
       &:hover {
         filter: grayscale(0);
         transition: all 350ms ease-in-out;
@@ -67,7 +68,7 @@
       line-height: 2.125rem;
       text-align: center;
       color: #6f6f6f;
-      span{
+      span {
         font-weight: 600;
       }
     }

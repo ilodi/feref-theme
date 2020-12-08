@@ -258,9 +258,12 @@ if (has_post_thumbnail()) {
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/vesta.svg" alt="nuestro clientes" />
             </div>
+       
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/estamp2020.svg" alt="nuestro clientes" />
             </div>
+
+
 
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/farmacias-sanisidro-c.svg" alt="nuestro clientes" />
@@ -271,15 +274,18 @@ if (has_post_thumbnail()) {
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/ibarra.svg" alt="nuestro clientes" />
             </div>
 
-            <div>
-                <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/ICI.svg" alt="nuestro clientes" />
-            </div>
+
             <div class="you-next">
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/logo/aux-next-you.svg" alt="Tenemos reservado un espacio para ti!" />
                 <div>
                     <p>Tenemos reservado un espacio <span>para ti!!</span></p>
                 </div>
             </div>
+
+            <div>
+                <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/ICI.svg" alt="nuestro clientes" />
+            </div>
+
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/nitrex.svg" alt="nuestro clientes" />
             </div>
