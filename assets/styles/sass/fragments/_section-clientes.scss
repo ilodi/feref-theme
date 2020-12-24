@@ -1,4 +1,5 @@
 .section-clientes {
+  overflow: hidden;
   .label {
     p {
       padding: 0;
@@ -22,7 +23,7 @@
       box-sizing: border-box;
       width: 300px;
       @include responsive(tablet) {
-        margin: 2rem 0;
+        margin: 2rem auto;
 
         width: 50%;
         &.you-next {
@@ -35,6 +36,10 @@
       filter: grayscale(1);
       margin: auto;
       transition: all 350ms ease-in-out;
+      @include responsive(tablet) {
+        margin: auto;
+        width: 100%;
+      }
       &:hover {
         filter: grayscale(0);
         transition: all 350ms ease-in-out;

@@ -16,7 +16,12 @@
 <head>
   <meta charset="<?php bloginfo('charset'); ?>">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <link rel="apple-touch-icon" sizes="180x180" href="<?php bloginfo('template_url'); ?>/assets/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="<?php bloginfo('template_url'); ?>/assets/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="<?php bloginfo('template_url'); ?>/assets/favicon/favicon-16x16.png">
+  <link rel="manifest" href="<?php bloginfo('template_url'); ?>/assets/favicon/site.webmanifest">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
   <link rel="profile" href="https://gmpg.org/xfn/11">
   <title>
     FEREG | <?php echo get_the_title() ?>
@@ -84,7 +89,7 @@
       <li>
         <a href="https://www.facebook.com/FEREGSPC/" target="_blank">
           <img src="<?php bloginfo('template_url'); ?>/assets/image/icon/facebook-alt.svg" alt="facebook icon" />
-       
+
         </a>
       </li>
       <li>

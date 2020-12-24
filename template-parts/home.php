@@ -37,8 +37,14 @@ if (has_post_thumbnail()) {
 <section class="section-say-hello add-padding-aux">
     <div class="container add-padding-aux">
         <div class="box-aux-hi">
-            <div class="area-img add-padding-aux">
-                <div> <img class="help-img-home-A" src="<?php bloginfo('template_url'); ?>/assets/image/aux/hom.jpg" alt="nosotros" /></div>
+            <div class="area-img add-padding-aux" id="activeVideo">
+
+                <div>
+                    <a id="play-video" class="video-play-button" href="#">
+                        <span></span>
+                    </a>
+
+                    <img class="help-img-home-A" src="<?php bloginfo('template_url'); ?>/assets/image/aux/hom.jpg" alt="nosotros" /></div>
                 <div> <img class="help-img-home-B" src="<?php bloginfo('template_url'); ?>/assets/image/aux/hom.jpg" alt="nosotros" /></div>
             </div>
             <div class="box-label-hi">
@@ -62,6 +68,21 @@ if (has_post_thumbnail()) {
         </div>
     </div>
 </section>
+<!--  -->
+<div id="modalVideo" class=" ">
+    <div id="modalBody" class="">
+
+        <button id="btnToClose" type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <video id="TheModalVideo" loop controls>
+            <source src="<?php bloginfo('template_url'); ?>/assets/video/Fereg.mp4" type="video/mp4" />
+        </video>
+
+
+    </div>
+
+</div>
 <!--  -->
 <section class="section-procedimientos add-padding-aux">
     <div class="container">
@@ -258,7 +279,7 @@ if (has_post_thumbnail()) {
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/vesta.svg" alt="nuestro clientes" />
             </div>
-       
+
             <div>
                 <img src="<?php bloginfo('template_url'); ?>/assets/image/clientes/estamp2020.svg" alt="nuestro clientes" />
             </div>
@@ -450,5 +471,26 @@ if (has_post_thumbnail()) {
     </div>
 </section>
 
+<script>
+    function changeState() {
+        window.modalVideo.classList.toggle('active');
+        window.modalBody.classList.toggle('show-body-modal')
+    }
+
+    function videoManage() {
+
+        window.TheModalVideo.play();
+
+
+    }
+    window.activeVideo.addEventListener('click', () => {
+        changeState()
+        videoManage()
+    })
+    window.btnToClose.addEventListener('click', () => {
+        changeState()
+        window.TheModalVideo.pause();
+    })
+</script>
 <?php
 get_footer();
